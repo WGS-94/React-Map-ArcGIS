@@ -4,10 +4,10 @@
 </div>-->
 
 <!-- Title -->
-<h1 align="center"> Construindo Esri ArcGIS Map usando React Hooks 🔥</h1>
+<h1 align="center"> Construindo mapas, usando React Hooks e Esri ArcGIS Map 🔥 </h1>
 
 <!-- Subtitle -->
-<h2> Simples forma de exibir um mapa usando Reactjs e Esri killer coding samples </h2>
+<h2> Simples forma de exibir um mapa usando Reactjs </h2>
 
 <!-- Badges 
 <p align="center">
@@ -46,9 +46,9 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## 🧰 Tecnologias e Bibliotecas
 
 * [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
-  * [Vite](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
-  * [phosphoricons](https://phosphoricons.com/) - Biblioteca for Icons in JS
-* [TypeScript](https://www.typescriptlang.org/)
+  <!--* [Vite](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
+  * [phosphoricons](https://phosphoricons.com/) - Biblioteca for Icons in JS -->
+* [esri-loader](https://www.typescriptlang.org/)
 
 <!--### Tools para criar API Fake
  * [MirageJS]()-->
@@ -56,17 +56,17 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## ⚙️ Rodando o Projeto
 ```bash
 # Clone este repositório para a pasta anterior
-$ git clone https://github.com/WGS-94/Ignite-TaskList-Chalenge
+$ git clone https://github.com/WGS-94/Web-GIS-Map-ReactJS
 # ou use a opção de download.
-# Acesse a pasta Ignite-TaskList-Chalenge
-$ cd Ignite-TaskList-Chalenge
+# Acesse a pasta Web-GIS-Map-ReactJS
+$ cd Web-GIS-Map-ReactJS
 # Instale as dependências
 $ yarn install
 ou
 $ npm install
 # Executando o Projeto
-$ yarn dev 
+$ yarn start 
 ou
-$ npm run dev
+$ npm start
 # Acesse http://localhost:3000 no seu navagador
 ```
