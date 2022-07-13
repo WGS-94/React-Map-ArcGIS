@@ -1,4 +1,4 @@
-import Map from './components/Map/index';
+import Map from './components/Map';
 
 import './global.css';
 
