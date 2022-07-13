@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<!-- Logotipo 
+<div align="center">
+  <img src="./Assets/ignite.png">
+</div>-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- Title -->
+<h1 align="center"> Construindo Esri ArcGIS Map usando React Hooks 🔥</h1>
 
-## Available Scripts
+<!-- Subtitle -->
+<h2> Simples forma de exibir um mapa usando Reactjs e Esri killer coding samples </h2>
 
-In the project directory, you can run:
+<!-- Badges 
+<p align="center">
+  <a href="https://rocketseat.com.br">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2306b656?style=flat-square">
+  </a>
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunoemferreira/rocketseat-ignite-dt-money?color=%2304D361?style=flat-square">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/brunoemferreira/rocketseat-ignite-dt-money?style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/rocketseat-ignite-dt-money?style=flat-square">
+</p>-->
 
-### `yarn start`
+<!-- Sobre o Projeto
+## 🚀 Sobre o Desafio
+Nesse desafio, você vai desenvolver uma aplicação de controle de tarefas no estilo to-do list, que contém as seguintes funcionalidades:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Adicionar uma nova tarefa
+- Marcar e desmarcar uma tarefa como concluída
+- Remover uma tarefa da listagem
+- Mostrar o progresso de conclusão das tarefas
+ -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!--https://www.figma.com/file/8n9339j7p3LTzWyZdVM9C3/ToDo-List-(Copy)?node-id=43%3A88 -->
 
-### `yarn test`
+## 🔖 Layout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate). Lembrando que você  precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-### `yarn build`
+## 🖼️ Exemplo: Imagen da Cidade de Launda - Angola
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!--
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/172730389-8014e84e-6f3f-48a8-8529-a55b4b2b49b6.PNG">
+</div>
+ -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧰 Tecnologias e Bibliotecas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
+  * [Vite](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
+  * [phosphoricons](https://phosphoricons.com/) - Biblioteca for Icons in JS
+* [TypeScript](https://www.typescriptlang.org/)
 
-### `yarn eject`
+<!--### Tools para criar API Fake
+ * [MirageJS]()-->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ⚙️ Rodando o Projeto
+```bash
+# Clone este repositório para a pasta anterior
+$ git clone https://github.com/WGS-94/Ignite-TaskList-Chalenge
+# ou use a opção de download.
+# Acesse a pasta Ignite-TaskList-Chalenge
+$ cd Ignite-TaskList-Chalenge
+# Instale as dependências
+$ yarn install
+ou
+$ npm install
+# Executando o Projeto
+$ yarn dev 
+ou
+$ npm run dev
+# Acesse http://localhost:3000 no seu navagador
+```
