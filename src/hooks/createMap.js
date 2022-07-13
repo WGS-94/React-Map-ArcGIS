@@ -15,12 +15,12 @@ export const useCreateMap = (MapRef) => {
       view = new MapView({
         map: map,
         center: [13.234444, -8.838333],
-        zoom: 13,
+        zoom: 14,
         // use of ref as container
         container: MapRef.current
       })
-
-      //basemap: 'topo-vector'
+ 
+      //basemaps: 'topo-vector' 'streets-relief-vector' 'satellite' 'dark-gray-vector'
       //"esri/views/WebMap"
     }
     
