@@ -14,7 +14,7 @@ export const useCreateMap = (MapRef) => {
 
       view = new MapView({
         map: map,
-        center: [-104.82313502980763, 38.828962462600366],
+        center: [13.234444, -8.838333],
         zoom: 13,
         // use of ref as container
         container: MapRef.current

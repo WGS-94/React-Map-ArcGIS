@@ -1,5 +1,5 @@
 import React, { useRef}from 'react';
-import { useCreateMap } from '../hooks/createMap';
+import { useCreateMap } from '../../hooks/createMap';
 
 export default function Map() {
 
