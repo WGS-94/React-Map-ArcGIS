@@ -4,7 +4,7 @@
 </div>-->
 
 <!-- Title -->
-<h1 align="center"> Construindo mapas, usando React Hooks e Esri ArcGIS API for javascript 🔥 </h1>
+<h1 align="center"> React Hooks and Esri ArcGIS API for javascript 🔥 </h1>
 
 <!-- Subtitle -->
 <h2> Simples forma de exibir um mapa usando Reactjs </h2>
@@ -57,10 +57,10 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## ⚙️ Rodando o Projeto
 ```bash
 # Clone este repositório para a pasta anterior
-$ git clone https://github.com/WGS-94/Web-GIS-Map-ReactJS
+$ git clone https://github.com/WGS-94/React-Map-ArcGIS
 # ou use a opção de download.
-# Acesse a pasta Web-GIS-Map-ReactJS
-$ cd Web-GIS-Map-ReactJS
+# Acesse a pasta React-Map-ArcGIS
+$ cd React-Map-ArcGIS
 # Instale as dependências
 $ yarn install
 ou
