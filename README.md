@@ -4,7 +4,7 @@
 </div>-->
 
 <!-- Title -->
-<h1 align="center"> Construindo mapas, usando React Hooks e Esri ArcGIS Map 🔥 </h1>
+<h1 align="center"> Construindo mapas, usando React Hooks e Esri ArcGIS API for javascript 🔥 </h1>
 
 <!-- Subtitle -->
 <h2> Simples forma de exibir um mapa usando Reactjs </h2>
