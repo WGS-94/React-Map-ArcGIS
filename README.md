@@ -37,11 +37,11 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## 🖼️ Exemplo: Imagen da Cidade de Launda - Angola
 
-<!---->
+<!--
 <div align="center">
   <img src="https://github.com/WGS-94/Web-GIS-React/blob/464651cdf9e29343852aa4be97a110514df228cd/src/App.js#L1-L14">
 </div>
- 
+ -->
 
 ## 🧰 Tecnologias e Bibliotecas
 
