@@ -48,10 +48,11 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 * [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
   <!--* [Vite](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
   * [phosphoricons](https://phosphoricons.com/) - Biblioteca for Icons in JS -->
-* [esri-loader](https://www.typescriptlang.org/)
+* [esri-loader](https://github.com/esri/esri-loader)
 
 <!--### Tools para criar API Fake
- * [MirageJS]()-->
+ * [MirageJS]()
+ -->
 
 ## ⚙️ Rodando o Projeto
 ```bash
