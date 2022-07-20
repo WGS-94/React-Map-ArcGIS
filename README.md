@@ -54,12 +54,39 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
  * [MirageJS]()
  -->
  
+ # Hook
+ 
 ```bash
-  const handleAddItem = (item: Item) => {
-      let newList = [...list];
-      newList.push(item);
-      setList(newList);
+import { useEffect } from 'react';
+import { loadModules } from 'esri-loader';
+
+export const useCreateMap = (MapRef) => {
+
+  useEffect(() => {
+
+    let view;
+
+    const initializedMap = async (MapRef) => {
+      const modules = ["esri/Map", "esri/views/MapView"];
+      const [Map, MapView] = await loadModules(modules);
+      const map = new Map({ basemap: 'streets-relief-vector' });
+
+      view = new MapView({
+        map: map,
+        center: [13.234444, -8.838333],
+        zoom: 14,
+        // use of ref as container
+        container: MapRef.current
+      })
     }
+    
+    initializedMap(MapRef);
+
+    return () => view?.destroy();
+
+  }, [MapRef]);
+
+}
 ```
 
 ## ⚙️ Rodando o Projeto
