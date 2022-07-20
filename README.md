@@ -98,6 +98,8 @@ export const useCreateMap = (MapRef) => {
 }
 ```
 
+Feito com 💖 by WGS-94
+
 ## ⚙️ Rodando o Projeto
 ```bash
 # Clone este repositório para a pasta anterior
