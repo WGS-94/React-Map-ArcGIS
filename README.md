@@ -53,6 +53,14 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 <!--### Tools para criar API Fake
  * [MirageJS]()
  -->
+ 
+```bash
+  const handleAddItem = (item: Item) => {
+      let newList = [...list];
+      newList.push(item);
+      setList(newList);
+    }
+```
 
 ## ⚙️ Rodando o Projeto
 ```bash
