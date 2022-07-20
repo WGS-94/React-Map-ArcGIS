@@ -30,10 +30,20 @@ Nesse desafio, você vai desenvolver uma aplicação de controle de tarefas no e
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate). Lembrando que você  precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.-->
 
- # Hook
+ # App
  
 ```bash
+import Map from './components/Map';
 
+function App() {
+  return (
+    <div className="App">
+     <Map />
+    </div>
+  );
+}
+
+export default App;
 ```
 
 ## 🖼️ Exemplo: Imagen da Cidade de Launda - Angola
