@@ -51,17 +51,6 @@ export default function App() {
 <div align="center">
   <img src="https://user-images.githubusercontent.com/87288949/179872043-651b0801-82ae-4371-9e5d-da192d72cbaa.PNG" alt="Luanda">
 </div>
-
-## 🧰 Tecnologias e Bibliotecas
-
-* [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
-  <!--* [Vite](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
-  * [phosphoricons](https://phosphoricons.com/) - Biblioteca for Icons in JS -->
-* [esri-loader](https://github.com/esri/esri-loader)
-
-<!--### Tools para criar API Fake
- * [MirageJS]()
- -->
  
  # Hook
  
@@ -97,6 +86,17 @@ export const useCreateMap = (MapRef) => {
 
 }
 ```
+
+## 🧰 Tecnologias e Bibliotecas
+
+* [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
+  <!--* [Vite](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
+  * [phosphoricons](https://phosphoricons.com/) - Biblioteca for Icons in JS -->
+* [esri-loader](https://github.com/esri/esri-loader)
+
+<!--### Tools para criar API Fake
+ * [MirageJS]()
+ -->
 
 ## ⚙️ Rodando o Projeto
 ```bash
