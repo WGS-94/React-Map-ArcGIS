@@ -33,9 +33,10 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
  # App
  
 ```bash
+
 import Map from './components/Map';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
      <Map />
@@ -43,7 +44,6 @@ function App() {
   );
 }
 
-export default App;
 ```
 
 ## 🖼️ Exemplo: Imagen da Cidade de Launda - Angola
