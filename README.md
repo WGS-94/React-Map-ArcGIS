@@ -46,7 +46,7 @@ export default function App() {
 
 ```
 
-## 🖼️ Exemplo: Imagen da Cidade de Launda - Angola
+## 🖼️ Exemplo: Imagen da Cidade de Luanda - Angola
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/87288949/179872043-651b0801-82ae-4371-9e5d-da192d72cbaa.PNG" alt="Luanda">
